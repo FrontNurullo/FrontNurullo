@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #212325; 
+    color: #f4f4f4;
+    overflow: hidden;
+} 
+.line{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    list-style-type: none;
+    z-index: 1;
+}
+.line>.hr{
+    width: 4px;
+    height: 100vh;
+    background-color: #121314;
+    position: absolute;
+    bottom: 0;
+}
+.list-one{
+    left: 5%;
+}
+.list-two{
+    left: 35%;
+}
+.list-three{
+    left: 55%;
+}
+.list-four{
+    left: 85%;
+}
+.list-five{
+    left: 95%;
+}
+.main{
+    position: relative;
+    left: 55%;
+    font-size: 250px;
+    font-family: 'Outfit'; 
+    z-index: 5;
+}
+.dot{
+    color: #ca5e5e;
+}
+.design{
+    z-index: 2;
+    font-size: 500px;
+    font-family: 'Noto Serif';
+    position: absolute;
+    line-height: 500px;
+    letter-spacing: 200px;
+    left: 500px;
+    top: 0;
+    color: #1d1f20;
+}
+.social{
+    position: absolute;
+    z-index: 11;
+    top: 80%;
+    transform: rotate(-90deg);
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
